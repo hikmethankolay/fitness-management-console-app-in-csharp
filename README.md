@@ -65,29 +65,19 @@ Ensure you have the following installed:
 - **Doxygen and Graphviz**: For documentation generation.
 - **MkDocs Material Theme**: For creating project websites.
 
-## **Supported Platforms**
+### Platforms
+- ![Ubuntu badge](assets/badge-ubuntu.svg)
+- ![macOS badge](assets/badge-macos.svg)
+- ![Windows badge](assets/badge-windows.svg)
 
-![Ubuntu badge](assets/badge-ubuntu.svg)
-![macOS badge](assets/badge-macos.svg)
-![Windows badge](assets/badge-windows.svg)
+### Test Coverage
+[![.NET Windows + Doxygen + Test + Release](https://github.com/ucoruh/vs-net-core-template/actions/workflows/build_check_ubuntu_windows.yml/badge.svg)](https://github.com/ucoruh/vs-net-core-template/actions/workflows/build_check_ubuntu_windows.yml)
 
-## **Test Coverage Ratios**
-
-> **Note**: Due to a known bug in Doxygen, badges with the same name in different folders may overwrite each other in the output directory. Refer to the README.md and web pages for the correct badges.
-
-### **Coverage Comparison**
-
-| Coverage Type | Windows OS                                                             | Linux OS (WSL-Ubuntu 20.04)                                              |
-| ------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Line Based    | ![Line Coverage](assets/codecoveragelibwin/badge_linecoverage.svg)     | ![Line Coverage](assets/codecoverageliblinux/badge_linecoverage.svg)     |
-| Branch Based  | ![Branch Coverage](assets/codecoveragelibwin/badge_branchcoverage.svg) | ![Branch Coverage](assets/codecoverageliblinux/badge_branchcoverage.svg) |
-| Method Based  | ![Method Coverage](assets/codecoveragelibwin/badge_methodcoverage.svg) | ![Method Coverage](assets/codecoverageliblinux/badge_methodcoverage.svg) |
-
-### **Documentation Coverage Ratios**
-
-|                    | Windows OS                                                        | Linux OS (WSL-Ubuntu 20.04)                                         |
-| ------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------- |
-| **Coverage Ratio** | ![Line Coverage](assets/doccoveragelibwin/badge_linecoverage.svg) | ![Line Coverage](assets/doccoverageliblinux/badge_linecoverage.svg) |
+**Coverage Metrics:**
+- **Overall**: ![All](assets/badge_combined.svg)
+- **Branch Coverage**: ![Branch Coverage](assets/badge_branchcoverage.svg)
+- **Line Coverage**: ![Line Coverage](assets/badge_linecoverage.svg)
+- **Method Coverage**: ![Method Coverage](assets/badge_methodcoverage.svg)
 
 ---
 
